@@ -20585,8 +20585,6 @@ self: super: with self; {
 
   xattr = callPackage ../development/python-modules/xattr { };
 
-  xbox-webapi = callPackage ../development/python-modules/xbox-webapi { };
-
   xboxapi = callPackage ../development/python-modules/xboxapi { };
 
   xcaplib = callPackage ../development/python-modules/xcaplib { };
